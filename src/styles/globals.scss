@@ -1,0 +1,33 @@
+:root {
+  --background-color-transparant: rgb(255, 255, 255, 0.4);
+  --background-color: rgb(255, 255, 255);
+  --gradient-color: rgb(54, 183, 253, 0.2);
+  --font-color: rgb(17, 17, 17);
+  --card-color: rgb(255, 255, 255);
+
+  @media (prefers-color-scheme: dark) {
+    --background-color-transparant: rgb(17, 17, 17, 0.4);
+    --background-color: rgb(17, 17, 17);
+    --gradient-color: rgb(0, 30, 60);
+    --font-color: rgb(255, 255, 255);
+    --card-color: rgb(54, 183, 253, 0.2);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: var(--background-color);
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

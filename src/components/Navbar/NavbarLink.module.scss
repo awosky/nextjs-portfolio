@@ -1,0 +1,7 @@
+.navlink {
+  text-decoration: none;
+
+  &:hover {
+    color: $secondaryColor;
+  }
+}

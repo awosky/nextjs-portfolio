@@ -1,0 +1,68 @@
+.contact {
+  background: linear-gradient(to bottom, $gradientColor, $backgroundColor);
+
+  .title {
+    color: $fontColor;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+    @media only screen and (max-width: $screen-md) {
+      font-size: 32px;
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+
+    @media only screen and (max-width: $screen-sm) {
+      font-size: 24px;
+      padding-bottom: 32px;
+    }
+  }
+
+  .container {
+    padding-bottom: 48px;
+
+    .box {
+      text-align: center;
+
+      .logo {
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      .socmed {
+        filter: grayscale(100%);
+        transition: filter 0.5s;
+      }
+
+      .text {
+        color: $fontColor;
+        margin: auto;
+        width: max-content;
+        background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+          ),
+          linear-gradient(
+            to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1)
+          );
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+      }
+
+      &:hover .socmed {
+        filter: none;
+      }
+
+      &:hover .text {
+        background-size: 0 3px, 100% 3px;
+      }
+    }
+  }
+}

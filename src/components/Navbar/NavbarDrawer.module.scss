@@ -1,0 +1,32 @@
+.box {
+  background: linear-gradient(to bottom, $gradientColor, $backgroundColor);
+  min-width: 320px;
+  height: 100%;
+
+  .grid {
+    color: $fontColor;
+    display: flex;
+    align-items: center;
+    padding: 32px 0 48px 24px;
+
+    .logo {
+      display: flex;
+      border-radius: 8px;
+      margin-right: 16px;
+    }
+  }
+
+  .stack {
+    button {
+      color: $fontColor;
+      text-align: left;
+      margin-right: 24px;
+      margin-left: 24px;
+
+      .icon {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

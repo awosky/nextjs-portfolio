@@ -1,0 +1,12 @@
+.footer {
+  background: $backgroundColor;
+  color: $secondaryColor;
+  text-align: center;
+  padding: 10px 0;
+
+  .text {
+    @media only screen and (max-width: $screen-md) {
+      font-size: 12px;
+    }
+  }
+}

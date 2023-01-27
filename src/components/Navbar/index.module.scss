@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+  z-index: 10;
+  transition: all 0.5s;
+  backdrop-filter: blur(20px);
+
+  &.scrolled {
+    background-color: $backgroundColorTransparant;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      border-radius: 50px;
+    }
+
+    button {
+      color: $fontColor;
+
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+  }
+}
