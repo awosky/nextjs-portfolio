@@ -17,7 +17,7 @@ import { ThemeContext } from "src/store/providers/ThemeProvider";
 import { useBreakpoint } from "src/utils/useBreakpoint";
 
 const Navbar = () => {
-  const { desktopScreen } = useBreakpoint();
+  const { tabletScreen, desktopScreen } = useBreakpoint();
   const { theme, setTheme } = useContext(ThemeContext);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -48,7 +48,9 @@ const Navbar = () => {
       <Container>
         <Grid container justifyContent="space-between" alignItems="center">
           <Grid item xs={2} className={styles.grid}>
-            {desktopScreen ? (
+            {tabletScreen ? (
+              <NavbarDrawer />
+            ) : (
               <NavbarLink name={HOME}>
                 <Image
                   className={styles.logo}
@@ -58,8 +60,6 @@ const Navbar = () => {
                   alt="logo"
                 />
               </NavbarLink>
-            ) : (
-              <NavbarDrawer />
             )}
           </Grid>
 
