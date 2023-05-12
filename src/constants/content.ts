@@ -57,7 +57,7 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-garutmenawan.webp",
     link: "https://faisalhakim.com/garutmenawan/",
     position: {
-      desktop: 5,
+      desktop: 4,
       mobile: 5,
     },
   },
@@ -89,8 +89,8 @@ export const portfolioList: IPortfolio[] = [
     },
   },
   {
-    name: "My Simple ToDo",
-    src: "/images/porto-simpletodo.webp",
+    name: "My ToDo",
+    src: "/images/porto-mytodo.webp",
     link: "https://todo.faisalhakim.com/",
     position: {
       desktop: 9,
@@ -98,11 +98,11 @@ export const portfolioList: IPortfolio[] = [
     },
   },
   {
-    name: "Simple Chatbot",
-    src: "/images/porto-simplechatbot.webp",
-    link: "https://chatbot.faisalhakim.com/",
+    name: "My Wallet",
+    src: "/images/porto-mywallet.webp",
+    link: "https://wallet.faisalhakim.com/",
     position: {
-      desktop: 4,
+      desktop: 5,
       mobile: 9,
     },
   },
