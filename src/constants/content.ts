@@ -19,8 +19,8 @@ export const skillList: ISkill[] = [
   { name: "NextJS", src: "/icons/nextjs.svg", level: "⭐⭐⭐⭐" },
   { name: "ExpressJS", src: "/icons/expressjs.svg", level: "⭐⭐" },
   { name: "Java", src: "/icons/java.svg", level: "⭐⭐" },
-  { name: "PHP", src: "/icons/php.svg", level: "⭐⭐" },
-  { name: "Laravel", src: "/icons/laravel.svg", level: "⭐⭐" },
+  { name: "Kotlin", src: "/icons/kotlin.svg", level: "⭐⭐" },
+  { name: "Dropwizard", src: "/icons/dropwizard.svg", level: "⭐⭐" },
   { name: "Firebase", src: "/icons/firebase.svg", level: "⭐⭐⭐" },
 ];
 
