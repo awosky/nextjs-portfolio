@@ -9,9 +9,11 @@ import { NavigationContext } from "src/store/providers/NavigationProvider";
 const Home = () => {
   const navigations = useContext(NavigationContext);
   const [showCursor, setShowCursor] = useState(true);
+  const [showTypewriter, setShowTypewriter] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShowCursor(false), 7500);
+    setTimeout(() => setShowTypewriter(true), 1500);
+    setTimeout(() => setShowCursor(false), 9000);
   }, []);
 
   const scroolToSkills = useCallback(() => {
@@ -27,14 +29,20 @@ const Home = () => {
             Hello
             <br />
             {"I'm "}
-            <Typewriter
-              words={["Faisal Nur Hakim", "Indonesian", "a Software Engineer."]}
-              cursor={showCursor}
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
+            {showTypewriter && (
+              <Typewriter
+                words={[
+                  "Faisal Nur Hakim",
+                  "Indonesian",
+                  "a Software Engineer.",
+                ]}
+                cursor={showCursor}
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            )}
           </Typography>
         </Box>
         <Box className={styles.scroller}>

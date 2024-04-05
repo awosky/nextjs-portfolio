@@ -1,16 +1,16 @@
 :root {
-  --background-color-transparant: rgb(255, 255, 255, 0.4);
-  --background-color: rgb(255, 255, 255);
-  --gradient-color: rgb(54, 183, 253, 0.2);
-  --font-color: rgb(17, 17, 17);
-  --card-color: rgb(255, 255, 255);
+  --background-color-transparant: #{$colorLightTransparant};
+  --background-color: #{$colorLight};
+  --gradient-color: #{$colorBlueLight};
+  --font-color: #{$colorDark};
+  --card-color: #{$colorLight};
 
   @media (prefers-color-scheme: dark) {
-    --background-color-transparant: rgb(17, 17, 17, 0.4);
-    --background-color: rgb(17, 17, 17);
-    --gradient-color: rgb(0, 30, 60);
-    --font-color: rgb(255, 255, 255);
-    --card-color: rgb(54, 183, 253, 0.2);
+    --background-color-transparant: #{$colorLightTransparant};
+    --background-color: #{$colorDark};
+    --gradient-color: #{$colorBlueDark};
+    --font-color: #{$colorLight};
+    --card-color: #{$colorBlueLight};
   }
 }
 
