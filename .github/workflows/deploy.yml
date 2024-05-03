@@ -1,0 +1,31 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install lftp -y
+
+      - name: Install dependencies and build
+        run: |
+          npm ci
+          npm run build
+          npm run export
+
+      - name: Upload to cPanel via FTP
+        run: |
+          lftp -e "set ssl:check-hostname no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST; mirror -R ./out /public_html"
+        env:
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
