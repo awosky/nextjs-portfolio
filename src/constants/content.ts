@@ -58,7 +58,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://faisalhakim.com/garutmenawan/",
     position: {
       desktop: 4,
-      mobile: 5,
+      mobile: 6,
     },
   },
   {
@@ -67,7 +67,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://faisalhakim.com/mesinanalisis/",
     position: {
       desktop: 6,
-      mobile: 6,
+      mobile: 7,
     },
   },
   {
@@ -76,7 +76,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://faisalhakim.com/ikaemerce/",
     position: {
       desktop: 7,
-      mobile: 7,
+      mobile: 8,
     },
   },
   {
@@ -94,7 +94,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://todo.faisalhakim.com/",
     position: {
       desktop: 9,
-      mobile: 8,
+      mobile: 5,
     },
   },
   {
