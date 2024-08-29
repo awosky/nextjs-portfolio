@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  background: #fff;
+  background: $backgroundColor;
 
   &.fade {
     opacity: 0;
@@ -38,7 +38,7 @@
     position: relative;
     border: 3px solid transparent;
     border-radius: 50%;
-    border-top-color: #000;
+    border-top-color: $fontColor;
     animation: rotate1 2s cubic-bezier(0.44, 0.39, 0.32, 1.28) infinite;
 
     &:after,
