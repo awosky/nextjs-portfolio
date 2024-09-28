@@ -54,22 +54,22 @@
           background-color: $fontColor;
           border-radius: 50%;
           opacity: 1;
-          animation: wheel 1.5s infinite;
-          -webkit-animation: wheel 1.5s infinite;
+          animation: wheel 1.25s infinite ;
+          -webkit-animation: wheel 1.25s infinite ;
         }
       }
 
       @keyframes wheel {
         to {
           opacity: 0;
-          top: 30px;
+          top: 20px;
         }
       }
 
       @-webkit-keyframes wheel {
         to {
           opacity: 0;
-          top: 30px;
+          top: 20px;
         }
       }
     }
