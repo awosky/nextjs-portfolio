@@ -53,8 +53,8 @@
       .front {
         background: linear-gradient(
             315deg,
-            $backgroundColorTransparant,
-            $cardColor
+            $backgroundColorTransparant ,
+            $cardColor 50%
           ),
           $backgroundColor;
       }
