@@ -39,8 +39,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-ladangshop.webp",
     link: "https://faisalhakim.com/ladangshop/",
     position: {
-      desktop: 2,
-      mobile: 2,
+      desktop: 10,
+      mobile: 10,
     },
   },
   {
@@ -104,6 +104,15 @@ export const portfolioList: IPortfolio[] = [
     position: {
       desktop: 5,
       mobile: 9,
+    },
+  },
+  {
+    name: "Undangan Gratis",
+    src: "/images/porto-invitation.webp",
+    link: "https://undangan-gratis.vercel.app/",
+    position: {
+      desktop: 2,
+      mobile: 2,
     },
   },
 ];
