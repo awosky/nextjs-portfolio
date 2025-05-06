@@ -39,8 +39,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-ladangshop.webp",
     link: "https://faisalhakim.com/ladangshop/",
     position: {
-      desktop: 10,
-      mobile: 10,
+      desktop: 9,
+      mobile: 9,
     },
   },
   {
@@ -62,21 +62,12 @@ export const portfolioList: IPortfolio[] = [
     },
   },
   {
-    name: "Mesin Analisis",
-    src: "/images/porto-mesinanalisis.webp",
-    link: "https://faisalhakim.com/mesinanalisis/",
-    position: {
-      desktop: 6,
-      mobile: 7,
-    },
-  },
-  {
     name: "Ikaemerce",
     src: "/images/porto-ikaemerce.webp",
     link: "https://faisalhakim.com/ikaemerce/",
     position: {
-      desktop: 7,
-      mobile: 8,
+      desktop: 6,
+      mobile: 7,
     },
   },
   {
@@ -84,7 +75,7 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-pesansayur.webp",
     link: "https://faisalhakim.com/pesansayur/",
     position: {
-      desktop: 8,
+      desktop: 7,
       mobile: 3,
     },
   },
@@ -93,7 +84,7 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-mytodo.webp",
     link: "https://todo.faisalhakim.com/",
     position: {
-      desktop: 9,
+      desktop: 8,
       mobile: 5,
     },
   },
@@ -103,7 +94,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://wallet.faisalhakim.com/",
     position: {
       desktop: 5,
-      mobile: 9,
+      mobile: 8,
     },
   },
   {
