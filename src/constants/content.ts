@@ -39,8 +39,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-ladangshop.webp",
     link: "https://faisalhakim.com/ladangshop/",
     position: {
-      desktop: 9,
-      mobile: 9,
+      desktop: 10,
+      mobile: 6,
     },
   },
   {
@@ -58,7 +58,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://faisalhakim.com/garutmenawan/",
     position: {
       desktop: 4,
-      mobile: 6,
+      mobile: 9,
     },
   },
   {
@@ -104,6 +104,15 @@ export const portfolioList: IPortfolio[] = [
     position: {
       desktop: 2,
       mobile: 2,
+    },
+  },
+  {
+    name: "Muslim Lite",
+    src: "/images/porto-muslimlite.webp",
+    link: "https://muslim-lite.vercel.app/",
+    position: {
+      desktop: 9,
+      mobile: 10,
     },
   },
 ];
