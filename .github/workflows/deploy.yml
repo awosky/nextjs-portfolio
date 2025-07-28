@@ -28,4 +28,4 @@ jobs:
           pass: ${{ secrets.SFTP_PASSWORD }}
           localDir: out
           remoteDir: public_html
-          options: --verbose --delete --parallel=2
+          options: --verbose --parallel=2
