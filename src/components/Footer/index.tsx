@@ -6,7 +6,8 @@ const Footer = () => {
     <Box className={styles.footer}>
       <Container>
         <Typography variant="subtitle1" component="h2" className={styles.text}>
-          © 2023 Faisal Nur Hakim | All Right Reserved
+          That’s all for now. Come back anytime — I’ll probably still be coding
+          😉
         </Typography>
       </Container>
     </Box>
