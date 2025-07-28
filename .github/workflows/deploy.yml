@@ -25,7 +25,7 @@ jobs:
           host: ${{ secrets.SFTP_HOST }}
           port: ${{ secrets.SFTP_PORT }}
           user: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
+          pass: ${{ secrets.SFTP_PASSWORD }}
           localDir: out
           remoteDir: public_html
           options: --verbose --delete --parallel=2
