@@ -28,7 +28,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "WeSpace",
     src: "/images/porto-wespace.webp",
-    link: "https://faisalhakim.com/wespace/",
+    link: "https://wespace.faisalhakim.com/",
     position: {
       desktop: 1,
       mobile: 1,
@@ -37,7 +37,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Ladang Shop",
     src: "/images/porto-ladangshop.webp",
-    link: "https://faisalhakim.com/ladangshop/",
+    link: "https://ladangshop.faisalhakim.com/",
     position: {
       desktop: 10,
       mobile: 6,
@@ -46,7 +46,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Resolusi Apresiasi",
     src: "/images/porto-resolusiapresiasi.webp",
-    link: "https://faisalhakim.com/resolusiapresiasi/",
+    link: "https://resolusiapresiasi.faisalhakim.com/",
     position: {
       desktop: 3,
       mobile: 4,
@@ -55,7 +55,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Garut Menawan",
     src: "/images/porto-garutmenawan.webp",
-    link: "https://faisalhakim.com/garutmenawan/",
+    link: "https://garutmenawan.faisalhakim.com/",
     position: {
       desktop: 4,
       mobile: 9,
@@ -64,7 +64,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Ikaemerce",
     src: "/images/porto-ikaemerce.webp",
-    link: "https://faisalhakim.com/ikaemerce/",
+    link: "https://ikaemerce.faisalhakim.com/",
     position: {
       desktop: 6,
       mobile: 7,
@@ -73,7 +73,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Pesan Sayur",
     src: "/images/porto-pesansayur.webp",
-    link: "https://faisalhakim.com/pesansayur/",
+    link: "https://pesansayur.faisalhakim.com/",
     position: {
       desktop: 7,
       mobile: 3,
