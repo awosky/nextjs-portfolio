@@ -19,8 +19,8 @@ export const skillList: ISkill[] = [
   { name: "NextJS", src: "/icons/nextjs.svg", level: "⭐⭐⭐⭐" },
   { name: "ExpressJS", src: "/icons/expressjs.svg", level: "⭐⭐" },
   { name: "Java", src: "/icons/java.svg", level: "⭐⭐" },
-  { name: "Kotlin", src: "/icons/kotlin.svg", level: "⭐⭐" },
-  { name: "Dropwizard", src: "/icons/dropwizard.svg", level: "⭐⭐" },
+  { name: "Kotlin", src: "/icons/kotlin.svg", level: "⭐⭐⭐⭐" },
+  { name: "PHP", src: "/icons/php.svg", level: "⭐" },
   { name: "Firebase", src: "/icons/firebase.svg", level: "⭐⭐⭐" },
 ];
 
@@ -39,8 +39,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-ladangshop.webp",
     link: "https://ladangshop.faisalhakim.com/",
     position: {
-      desktop: 10,
-      mobile: 6,
+      desktop: 7,
+      mobile: 11,
     },
   },
   {
@@ -57,8 +57,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-garutmenawan.webp",
     link: "https://garutmenawan.faisalhakim.com/",
     position: {
-      desktop: 4,
-      mobile: 9,
+      desktop: 5,
+      mobile: 8,
     },
   },
   {
@@ -66,8 +66,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-ikaemerce.webp",
     link: "https://ikaemerce.faisalhakim.com/",
     position: {
-      desktop: 6,
-      mobile: 7,
+      desktop: 8,
+      mobile: 6,
     },
   },
   {
@@ -75,7 +75,7 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-pesansayur.webp",
     link: "https://pesansayur.faisalhakim.com/",
     position: {
-      desktop: 7,
+      desktop: 9,
       mobile: 3,
     },
   },
@@ -84,8 +84,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-mytodo.webp",
     link: "https://todo.faisalhakim.com/",
     position: {
-      desktop: 8,
-      mobile: 5,
+      desktop: 4,
+      mobile: 10,
     },
   },
   {
@@ -93,8 +93,8 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-mywallet.webp",
     link: "https://wallet.faisalhakim.com/",
     position: {
-      desktop: 5,
-      mobile: 8,
+      desktop: 6,
+      mobile: 7,
     },
   },
   {
@@ -111,8 +111,17 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-muslimlite.webp",
     link: "https://muslim-lite.vercel.app/",
     position: {
-      desktop: 9,
-      mobile: 10,
+      desktop: 10,
+      mobile: 9,
+    },
+  },
+  {
+    name: "Simple Chatbot",
+    src: "/images/porto-chatbot.webp",
+    link: "https://chatbot.faisalhakim.com/",
+    position: {
+      desktop: 11,
+      mobile: 5,
     },
   },
 ];
