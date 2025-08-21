@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { useContext } from "react";
+import Head from "src/components/Head";
 import Contact from "src/containers/Contact";
 import Home from "src/containers/Home";
 import Portfolio from "src/containers/Portfolio";
@@ -11,15 +11,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Head>
-        <title>Faisal Nur Hakim | Software Engineer</title>
-        <meta
-          name="description"
-          content="Hello, My name is Faisal Nur Hakim and I am a Software Engineer"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head />
 
       <main>
         <section ref={navigations.homeSection}>
