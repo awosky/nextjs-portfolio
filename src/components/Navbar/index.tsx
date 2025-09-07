@@ -1,13 +1,8 @@
-import { Box, Container, Grid, Stack, Switch } from "@mui/material";
+import { Box, Container, Grid, Stack } from "@mui/material";
 import classNames from "classnames";
 import Image from "next/image";
-import {
-  ChangeEvent,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import React, { useContext, useEffect, useState } from "react";
+import DraggableSwitch from "src/components/Navbar/DraggableSwitch";
 import styles from "src/components/Navbar/index.module.scss";
 import NavbarDrawer from "src/components/Navbar/NavbarDrawer";
 import NavbarLink from "src/components/Navbar/NavbarLink";
@@ -32,14 +27,6 @@ const Navbar = () => {
       setTheme("dark");
     }
   }, [setTheme]);
-
-  const changeTheme = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
-      const value = e.target.checked;
-      setTheme(value ? "dark" : "light");
-    },
-    [setTheme]
-  );
 
   return (
     <Box
@@ -66,23 +53,21 @@ const Navbar = () => {
           {desktopScreen && (
             <Grid item sm={2} className={styles.grid}>
               <Stack direction="row" spacing={8}>
-                {navigationList.map(({ name }) => {
-                  return (
-                    <NavbarLink key={name} name={name}>
-                      {name}
-                    </NavbarLink>
-                  );
-                })}
+                {navigationList.map(({ name }) => (
+                  <NavbarLink key={name} name={name}>
+                    {name}
+                  </NavbarLink>
+                ))}
               </Stack>
             </Grid>
           )}
 
           <Grid item xs={4} sm={2} className={styles.grid}>
             🌞
-            <Switch
-              color="default"
-              onChange={changeTheme}
+            <DraggableSwitch
               checked={theme === "dark"}
+              onChange={(c) => setTheme(c ? "dark" : "light")}
+              color="default"
             />
             🌚
           </Grid>
