@@ -10,7 +10,7 @@ type HeadProps = {
 
 export default function Head({
   title = "Faisal Nur Hakim - Software Engineer",
-  description = "Hi, I’m Faisal Nur Hakim — software engineer, creator, and curious learner. Explore my portfolio and skills!",
+  description = "Hi, I’m Faisal Nur Hakim — a software engineer, creator, and lifelong learner. Here you’ll find my projects, skills, and ideas brought to life. Let’s build something great together!",
   keywords = [
     "Faisal Nur Hakim",
     "software engineer",
