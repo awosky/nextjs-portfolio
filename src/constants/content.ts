@@ -100,7 +100,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Undangan Gratis",
     src: "/images/porto-invitation.webp",
-    link: "https://undangan-gratis.vercel.app/",
+    link: "https://undangan-gratis.netlify.app/",
     position: {
       desktop: 2,
       mobile: 2,
