@@ -109,7 +109,7 @@ export const portfolioList: IPortfolio[] = [
   {
     name: "Muslim Lite",
     src: "/images/porto-muslimlite.webp",
-    link: "https://muslim-lite.faisalhakim.com/",
+    link: "https://muslim-lite.netlify.app/",
     position: {
       desktop: 10,
       mobile: 9,
