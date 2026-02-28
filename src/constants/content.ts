@@ -124,6 +124,15 @@ export const portfolioList: IPortfolio[] = [
       mobile: 5,
     },
   },
+  {
+    name: "Koneksi Kata",
+    src: "/images/porto-koneksikata.webp",
+    link: "https://koneksi-kata.vercel.app/",
+    position: {
+      desktop: 12,
+      mobile: 12,
+    },
+  },
 ];
 
 export const contactList: IContact[] = [
