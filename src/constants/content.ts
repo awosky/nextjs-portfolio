@@ -17,11 +17,11 @@ export const skillList: ISkill[] = [
   { name: "Javascript", src: "/icons/javascript.svg", level: "⭐⭐⭐⭐" },
   { name: "ReactJS", src: "/icons/reactjs.svg", level: "⭐⭐⭐⭐" },
   { name: "NextJS", src: "/icons/nextjs.svg", level: "⭐⭐⭐⭐" },
-  { name: "ExpressJS", src: "/icons/expressjs.svg", level: "⭐⭐" },
+  { name: "NodeJS", src: "/icons/nodejs.svg", level: "⭐⭐⭐" },
   { name: "Java", src: "/icons/java.svg", level: "⭐⭐" },
   { name: "Kotlin", src: "/icons/kotlin.svg", level: "⭐⭐⭐⭐" },
-  { name: "PHP", src: "/icons/php.svg", level: "⭐" },
-  { name: "Firebase", src: "/icons/firebase.svg", level: "⭐⭐⭐" },
+  { name: "Kafka", src: "/icons/kafka.svg", level: "⭐⭐" },
+  { name: "RabbitMQ", src: "/icons/rabbitmq.svg", level: "⭐⭐" },
 ];
 
 export const portfolioList: IPortfolio[] = [
