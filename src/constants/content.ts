@@ -49,7 +49,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://resolusiapresiasi.faisalhakim.com/",
     position: {
       desktop: 3,
-      mobile: 4,
+      mobile: 7,
     },
   },
   {
@@ -67,7 +67,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://ikaemerce.faisalhakim.com/",
     position: {
       desktop: 8,
-      mobile: 6,
+      mobile: 5,
     },
   },
   {
@@ -84,7 +84,7 @@ export const portfolioList: IPortfolio[] = [
     src: "/images/porto-mytodo.webp",
     link: "https://todo.faisalhakim.com/",
     position: {
-      desktop: 4,
+      desktop: 13,
       mobile: 10,
     },
   },
@@ -94,7 +94,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://wallet.faisalhakim.com/",
     position: {
       desktop: 6,
-      mobile: 7,
+      mobile: 6,
     },
   },
   {
@@ -121,7 +121,7 @@ export const portfolioList: IPortfolio[] = [
     link: "https://chatbot.faisalhakim.com/",
     position: {
       desktop: 11,
-      mobile: 5,
+      mobile: 4,
     },
   },
   {
@@ -131,6 +131,15 @@ export const portfolioList: IPortfolio[] = [
     position: {
       desktop: 12,
       mobile: 12,
+    },
+  },
+  {
+    name: "Launch Kit",
+    src: "/images/porto-launchkit.webp",
+    link: "https://launch-kit-cyan.vercel.app/",
+    position: {
+      desktop: 4,
+      mobile: 13,
     },
   },
 ];
