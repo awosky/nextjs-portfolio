@@ -142,6 +142,24 @@ export const portfolioList: IPortfolio[] = [
       mobile: 13,
     },
   },
+  {
+    name: "Hitung Kurs",
+    src: "/images/porto-hitungkurs.webp",
+    link: "https://hitung-kurs.vercel.app/",
+    position: {
+      desktop: 14,
+      mobile: 14,
+    },
+  },
+  {
+    name: "Auto Refresh",
+    src: "/images/porto-autorefresh.webp",
+    link: "https://vite-simple-auto-refresh.vercel.app/",
+    position: {
+      desktop: 15,
+      mobile: 15,
+    },
+  },
 ];
 
 export const contactList: IContact[] = [
