@@ -8,19 +8,15 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-import { portfolioList } from "src/constants/content";
+import { portfolioItems, portfolioOrder } from "src/constants/content";
 import styles from "src/containers/Portfolio.module.scss";
-import { IPortfolio } from "src/interfaces/global";
 import { useBreakpoint } from "src/utils/useBreakpoint";
 
 const Portfolio = () => {
   const { desktopScreen } = useBreakpoint();
-
-  portfolioList.sort((a: IPortfolio, b: IPortfolio) => {
-    const sortedListOnDesktop = a.position.desktop - b.position.desktop;
-    const sortedListOnMobile = a.position.mobile - b.position.mobile;
-    return desktopScreen ? sortedListOnDesktop : sortedListOnMobile;
-  });
+  const portfolioList = portfolioOrder[
+    desktopScreen ? "desktop" : "mobile"
+  ].map((id) => portfolioItems[id]);
 
   return (
     <Box className={styles.portfolio}>
@@ -29,7 +25,7 @@ const Portfolio = () => {
           Portfolio
         </Typography>
         <ImageList variant="masonry" cols={desktopScreen ? 3 : 2} gap={20}>
-          {portfolioList.map((item: IPortfolio) => (
+          {portfolioList.map((item) => (
             <ImageListItem key={item.src}>
               <Box className={styles.wrapper}>
                 <Image alt={item.src} src={item.src} width={400} height={400} />

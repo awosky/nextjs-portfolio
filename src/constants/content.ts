@@ -2,7 +2,8 @@ import { CONTACT, HOME, PORTFOLIO, SKILLS } from "src/constants/global";
 import {
   IContact,
   INavigation,
-  IPortfolio,
+  IPortfolioItems,
+  IPortfolioOrder,
   ISkill,
 } from "src/interfaces/global";
 
@@ -24,143 +25,127 @@ export const skillList: ISkill[] = [
   { name: "RabbitMQ", src: "/icons/rabbitmq.svg", level: "⭐⭐" },
 ];
 
-export const portfolioList: IPortfolio[] = [
-  {
+export const portfolioItems: IPortfolioItems = {
+  wespace: {
     name: "WeSpace",
     src: "/images/porto-wespace.webp",
     link: "https://wespace.faisalhakim.com/",
-    position: {
-      desktop: 1,
-      mobile: 1,
-    },
   },
-  {
+  ladangShop: {
     name: "Ladang Shop",
     src: "/images/porto-ladangshop.webp",
     link: "https://ladangshop.faisalhakim.com/",
-    position: {
-      desktop: 7,
-      mobile: 11,
-    },
   },
-  {
+  resolusiApresiasi: {
     name: "Resolusi Apresiasi",
     src: "/images/porto-resolusiapresiasi.webp",
     link: "https://resolusiapresiasi.faisalhakim.com/",
-    position: {
-      desktop: 3,
-      mobile: 7,
-    },
   },
-  {
+  garutMenawan: {
     name: "Garut Menawan",
     src: "/images/porto-garutmenawan.webp",
     link: "https://garutmenawan.faisalhakim.com/",
-    position: {
-      desktop: 5,
-      mobile: 8,
-    },
   },
-  {
+  ikaemerce: {
     name: "Ikaemerce",
     src: "/images/porto-ikaemerce.webp",
     link: "https://ikaemerce.faisalhakim.com/",
-    position: {
-      desktop: 8,
-      mobile: 5,
-    },
   },
-  {
+  pesanSayur: {
     name: "Pesan Sayur",
     src: "/images/porto-pesansayur.webp",
     link: "https://pesansayur.faisalhakim.com/",
-    position: {
-      desktop: 9,
-      mobile: 3,
-    },
   },
-  {
+  myTodo: {
     name: "My ToDo",
     src: "/images/porto-mytodo.webp",
     link: "https://todo.faisalhakim.com/",
-    position: {
-      desktop: 13,
-      mobile: 10,
-    },
   },
-  {
+  myWallet: {
     name: "My Wallet",
     src: "/images/porto-mywallet.webp",
     link: "https://wallet.faisalhakim.com/",
-    position: {
-      desktop: 6,
-      mobile: 6,
-    },
   },
-  {
+  undanganGratis: {
     name: "Undangan Gratis",
     src: "/images/porto-invitation.webp",
     link: "https://undangan-gratis.netlify.app/",
-    position: {
-      desktop: 2,
-      mobile: 2,
-    },
   },
-  {
+  muslimLite: {
     name: "Muslim Lite",
     src: "/images/porto-muslimlite.webp",
     link: "https://muslim-lite.netlify.app/",
-    position: {
-      desktop: 10,
-      mobile: 9,
-    },
   },
-  {
+  simpleChatbot: {
     name: "Simple Chatbot",
     src: "/images/porto-chatbot.webp",
     link: "https://chatbot.faisalhakim.com/",
-    position: {
-      desktop: 11,
-      mobile: 4,
-    },
   },
-  {
+  koneksiKata: {
     name: "Koneksi Kata",
     src: "/images/porto-koneksikata.webp",
     link: "https://koneksi-kata.vercel.app/",
-    position: {
-      desktop: 12,
-      mobile: 12,
-    },
   },
-  {
+  launchKit: {
     name: "Launch Kit",
     src: "/images/porto-launchkit.webp",
     link: "https://launch-kit-cyan.vercel.app/",
-    position: {
-      desktop: 4,
-      mobile: 13,
-    },
   },
-  {
+  hitungKurs: {
     name: "Hitung Kurs",
     src: "/images/porto-hitungkurs.webp",
     link: "https://hitung-kurs.vercel.app/",
-    position: {
-      desktop: 14,
-      mobile: 14,
-    },
   },
-  {
+  autoRefresh: {
     name: "Auto Refresh",
     src: "/images/porto-autorefresh.webp",
     link: "https://vite-simple-auto-refresh.vercel.app/",
-    position: {
-      desktop: 15,
-      mobile: 15,
-    },
   },
-];
+  refreshMate: {
+    name: "Refresh Mate",
+    src: "/images/porto-refreshmate.webp",
+    link: "https://chromewebstore.google.com/detail/hcopkdjjjidlafpfpbpmendoaocjgcdg?utm_source=item-share-cb",
+  },
+};
+
+export const portfolioOrder: IPortfolioOrder = {
+  desktop: [
+    "wespace",
+    "undanganGratis",
+    "koneksiKata",
+    "resolusiApresiasi",
+    "autoRefresh",
+    "launchKit",
+    "garutMenawan",
+    "myWallet",
+    "ladangShop",
+    "refreshMate",
+    "ikaemerce",
+    "muslimLite",
+    "simpleChatbot",
+    "myTodo",
+    "hitungKurs",
+    "pesanSayur",
+  ],
+  mobile: [
+    "wespace",
+    "undanganGratis",
+    "pesanSayur",
+    "simpleChatbot",
+    "ikaemerce",
+    "myWallet",
+    "resolusiApresiasi",
+    "garutMenawan",
+    "muslimLite",
+    "myTodo",
+    "ladangShop",
+    "koneksiKata",
+    "launchKit",
+    "hitungKurs",
+    "autoRefresh",
+    "refreshMate",
+  ],
+};
 
 export const contactList: IContact[] = [
   {

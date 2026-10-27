@@ -30,6 +30,38 @@ export interface IPortfolio {
   position: IPosition;
 }
 
+export interface IPortfolioItem {
+  name: string;
+  src: string;
+  link: string;
+}
+
+export interface IPortfolioItems {
+  wespace: IPortfolioItem;
+  ladangShop: IPortfolioItem;
+  resolusiApresiasi: IPortfolioItem;
+  garutMenawan: IPortfolioItem;
+  ikaemerce: IPortfolioItem;
+  pesanSayur: IPortfolioItem;
+  myTodo: IPortfolioItem;
+  myWallet: IPortfolioItem;
+  undanganGratis: IPortfolioItem;
+  muslimLite: IPortfolioItem;
+  simpleChatbot: IPortfolioItem;
+  koneksiKata: IPortfolioItem;
+  launchKit: IPortfolioItem;
+  hitungKurs: IPortfolioItem;
+  autoRefresh: IPortfolioItem;
+  refreshMate: IPortfolioItem;
+}
+
+export type IPortfolioId = keyof IPortfolioItems;
+
+export interface IPortfolioOrder {
+  desktop: IPortfolioId[];
+  mobile: IPortfolioId[];
+}
+
 export interface IContact {
   name: string;
   src: string;
